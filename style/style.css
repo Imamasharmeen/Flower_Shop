@@ -16,12 +16,12 @@
 
 
 .banner-container {
-    border: 2px solid saddlebrown;
+    /* border: 2px solid saddlebrown;*/
     max-width: 1920px;
 }
 
 .banner-content {
-    border: 2px solid rgb(19, 139, 61);
+    /* border: 2px solid rgb(19, 139, 61);*/
     padding: 0px 80px;
     display: flex;
     gap: 80px;
@@ -29,7 +29,7 @@
 }
 
 .banner-text-content {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     width: 50%;
     padding: 200px 80px;
 }
@@ -49,7 +49,7 @@
 }
 
 .banner-img-content {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     width: 50%;
     padding: 80px 80px;
 }
@@ -57,7 +57,6 @@
 .button {
     border-radius: 5px;
     background: rgb(229, 84, 115);
-    ;
     color: rgb(255, 255, 255);
     padding: 5px 10px;
 }
@@ -67,7 +66,7 @@
 
 
 .Featured-section {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     text-align: center;
     margin-top: 180px;
 }
@@ -94,7 +93,7 @@
 
 .main-flower-img,
 .section-2 {
-    border: 2px solid rgb(5, 2, 21);
+    /*border: 2px solid rgb(5, 2, 21);*/
     width: 80%;
     margin: 0px auto;
     display: flex;
@@ -103,14 +102,14 @@
 }
 
 .flower-img {
-    border: 2px dashed rgb(5, 2, 21);
+    /* border: 2px dashed rgb(5, 2, 21);*/
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
     width: 100%;
 }
 
 .flower-name {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     margin-top: 25px;
     display: flex;
     gap: 350px;
@@ -124,7 +123,7 @@
 /* Featured-section end here*/
 /* Info-section start here*/
 .section-2 {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     height: 320px;
@@ -138,13 +137,13 @@
 }
 
 .section-2-div2 {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     text-align: center;
 
 }
 
 .section-2-img {
-    border: 2px dashed rgb(5, 2, 21);
+    /* border: 2px dashed rgb(5, 2, 21);*/
 
 }
 
@@ -160,7 +159,7 @@
 
 
 .section-3 {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     margin-top: 128px;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
@@ -175,7 +174,7 @@
 
 .section-3-div,
 .section-4-div {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     padding: 120px 0;
     display: grid;
     place-items: center;
@@ -183,7 +182,7 @@
 }
 
 .section-3-img {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
 }
 
 /* Sale-section end here*/
@@ -191,7 +190,7 @@
 
 
 .section4-img {
-    border: 2px solid rgb(5, 2, 21);
+    /* border: 2px solid rgb(5, 2, 21);*/
     width: auto;
     margin: 0px auto;
     padding-left: 100px;
@@ -203,7 +202,7 @@
 /* latest deals-section start here*/
 
 .section-5 {
-    border: 2px solid blue;
+    /* border: 2px solid blue;*/
     width: 1440px;
     height: 449px;
     margin: 0px auto;
@@ -223,7 +222,7 @@
     color: rgb(39, 39, 39);
     font-size: 40px;
     font-weight: 800;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .section-5-div p {
@@ -244,6 +243,7 @@
     background: rgb(255, 255, 255);
     padding-left: 30px;
     margin-right: 16px;
+    border-style: none;
 }
 
 .section-5-button button {
@@ -251,10 +251,13 @@
     height: 64px;
     border-radius: 8px;
     background: rgb(229, 84, 115);
+    border-style: none;
 }
 
+/* Footer section start here*/
+
 .footer{
-    border: 2px solid red;
+    /* border: 2px solid red;*/
     width: 1992;
     height: 449px;
     background-color: black;
@@ -286,3 +289,57 @@
 span{
     color: brown;
 }
+
+/* Footer section end here*/
+
+/* media query in banner for small devices*/
+    @media  screen and (max-width: 576px) {
+      
+        
+        .banner-content {
+            
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            background-color: rgba(229, 84, 115, 0.1);
+        }
+        
+        .banner-text-content {
+            
+            width: 95%;
+            height: 50%;
+            padding: 20px;
+         
+        }
+        
+        .banner-title {
+            font-size: 40px;
+            font-weight: 600px;
+            margin-bottom: 30px;
+            color: rgb(39, 39, 39);
+        }
+        
+        .banner-description {
+            color: rgba(39, 39, 39, 0.6);
+            font-size: 10px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+        .button {
+            border-radius: 5px;
+            background: rgb(229, 84, 115);
+            color: rgb(255, 255, 255);
+            padding: 5px 10px;
+        }
+    
+        .banner-img-content {
+            
+            width: 95%;
+            
+    
+        }
+        .banner-img-content img{
+            width: 100%;
+            height: 90%;
+        }
+    }    
