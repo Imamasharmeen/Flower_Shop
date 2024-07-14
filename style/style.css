@@ -10,8 +10,6 @@
 * {
     margin: 0;
     padding: 0;
-
-
 }
 
 /* Banner-section start here*/
@@ -253,4 +251,38 @@
     height: 64px;
     border-radius: 8px;
     background: rgb(229, 84, 115);
+}
+
+.footer{
+    border: 2px solid red;
+    width: 1992;
+    height: 449px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+.footer h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: brown;  
+    margin-bottom: 30px;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.footer-text2{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+
+}
+span{
+    color: brown;
 }
